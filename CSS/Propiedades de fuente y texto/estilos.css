@@ -1,0 +1,12 @@
+p {
+    color: red;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: underline;
+    line-height: 2.5;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
