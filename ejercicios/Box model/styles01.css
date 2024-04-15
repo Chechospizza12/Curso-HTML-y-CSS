@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    font-family: Arial;
+}
+
+.tarjeta_p {
+    background: rgba(218, 25, 25, 0.747);
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 11px;
+    padding: 20px;
+    background-color: coral;
+    text-align: justify;
+}
