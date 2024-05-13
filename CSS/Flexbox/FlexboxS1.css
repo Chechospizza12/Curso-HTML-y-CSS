@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.caja_p {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh
+}
+
+.cajas_h {
+    width: 150px;
+    background-color: #800;
+    margin: 10px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    height: 150px;
+}
+
+.cajas_h:nth-child(2n) {
+    background-color: blue;
+}

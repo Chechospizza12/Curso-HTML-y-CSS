@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div,
+body {
+    box-sizing: border-box;
+}
+
+.caja_p {
+    display: flex;
+    flex-flow: row;
+    border: 2px solid #000;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.cajas_h {
+    background-color: black;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    width: 200px;
+    flex-shrink: 2;
+    flex-grow: 2;
+    flex: 2 2 auto;
+}
+
+.cajas_h:first-child {
+    background-color: red;
+    flex-shrink: 0;
+}
+
+.cajas_h:last-child {
+    background-color: gray;
+    flex-shrink: 3;
+}
